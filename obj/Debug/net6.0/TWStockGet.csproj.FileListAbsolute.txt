@@ -1,0 +1,17 @@
+D:\Visual Studio 2022\TWStockGet\TWStockGet\bin\Debug\net6.0\TWStockGet.exe
+D:\Visual Studio 2022\TWStockGet\TWStockGet\bin\Debug\net6.0\TWStockGet.deps.json
+D:\Visual Studio 2022\TWStockGet\TWStockGet\bin\Debug\net6.0\TWStockGet.runtimeconfig.json
+D:\Visual Studio 2022\TWStockGet\TWStockGet\bin\Debug\net6.0\TWStockGet.dll
+D:\Visual Studio 2022\TWStockGet\TWStockGet\bin\Debug\net6.0\ref\TWStockGet.dll
+D:\Visual Studio 2022\TWStockGet\TWStockGet\bin\Debug\net6.0\TWStockGet.pdb
+D:\Visual Studio 2022\TWStockGet\TWStockGet\bin\Debug\net6.0\AngleSharp.dll
+D:\Visual Studio 2022\TWStockGet\TWStockGet\obj\Debug\net6.0\TWStockGet.csproj.AssemblyReference.cache
+D:\Visual Studio 2022\TWStockGet\TWStockGet\obj\Debug\net6.0\TWStockGet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio 2022\TWStockGet\TWStockGet\obj\Debug\net6.0\TWStockGet.AssemblyInfoInputs.cache
+D:\Visual Studio 2022\TWStockGet\TWStockGet\obj\Debug\net6.0\TWStockGet.AssemblyInfo.cs
+D:\Visual Studio 2022\TWStockGet\TWStockGet\obj\Debug\net6.0\TWStockGet.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2022\TWStockGet\TWStockGet\obj\Debug\net6.0\TWStockGet.csproj.CopyComplete
+D:\Visual Studio 2022\TWStockGet\TWStockGet\obj\Debug\net6.0\TWStockGet.dll
+D:\Visual Studio 2022\TWStockGet\TWStockGet\obj\Debug\net6.0\ref\TWStockGet.dll
+D:\Visual Studio 2022\TWStockGet\TWStockGet\obj\Debug\net6.0\TWStockGet.pdb
+D:\Visual Studio 2022\TWStockGet\TWStockGet\obj\Debug\net6.0\TWStockGet.genruntimeconfig.cache
