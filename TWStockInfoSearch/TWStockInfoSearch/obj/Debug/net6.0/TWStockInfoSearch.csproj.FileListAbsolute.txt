@@ -1,0 +1,17 @@
+D:\Github\TWStockInfoSearch\TWStockInfoSearch\TWStockInfoSearch\obj\Debug\net6.0\TWStockInfoSearch.csproj.AssemblyReference.cache
+D:\Github\TWStockInfoSearch\TWStockInfoSearch\TWStockInfoSearch\obj\Debug\net6.0\TWStockInfoSearch.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\TWStockInfoSearch\TWStockInfoSearch\TWStockInfoSearch\obj\Debug\net6.0\TWStockInfoSearch.AssemblyInfoInputs.cache
+D:\Github\TWStockInfoSearch\TWStockInfoSearch\TWStockInfoSearch\obj\Debug\net6.0\TWStockInfoSearch.AssemblyInfo.cs
+D:\Github\TWStockInfoSearch\TWStockInfoSearch\TWStockInfoSearch\obj\Debug\net6.0\TWStockInfoSearch.csproj.CoreCompileInputs.cache
+D:\Github\TWStockInfoSearch\TWStockInfoSearch\TWStockInfoSearch\bin\Debug\net6.0\TWStockInfoSearch.exe
+D:\Github\TWStockInfoSearch\TWStockInfoSearch\TWStockInfoSearch\bin\Debug\net6.0\TWStockInfoSearch.deps.json
+D:\Github\TWStockInfoSearch\TWStockInfoSearch\TWStockInfoSearch\bin\Debug\net6.0\TWStockInfoSearch.runtimeconfig.json
+D:\Github\TWStockInfoSearch\TWStockInfoSearch\TWStockInfoSearch\bin\Debug\net6.0\TWStockInfoSearch.dll
+D:\Github\TWStockInfoSearch\TWStockInfoSearch\TWStockInfoSearch\bin\Debug\net6.0\ref\TWStockInfoSearch.dll
+D:\Github\TWStockInfoSearch\TWStockInfoSearch\TWStockInfoSearch\bin\Debug\net6.0\TWStockInfoSearch.pdb
+D:\Github\TWStockInfoSearch\TWStockInfoSearch\TWStockInfoSearch\bin\Debug\net6.0\AngleSharp.dll
+D:\Github\TWStockInfoSearch\TWStockInfoSearch\TWStockInfoSearch\obj\Debug\net6.0\TWStockInfoSearch.csproj.CopyComplete
+D:\Github\TWStockInfoSearch\TWStockInfoSearch\TWStockInfoSearch\obj\Debug\net6.0\TWStockInfoSearch.dll
+D:\Github\TWStockInfoSearch\TWStockInfoSearch\TWStockInfoSearch\obj\Debug\net6.0\ref\TWStockInfoSearch.dll
+D:\Github\TWStockInfoSearch\TWStockInfoSearch\TWStockInfoSearch\obj\Debug\net6.0\TWStockInfoSearch.pdb
+D:\Github\TWStockInfoSearch\TWStockInfoSearch\TWStockInfoSearch\obj\Debug\net6.0\TWStockInfoSearch.genruntimeconfig.cache

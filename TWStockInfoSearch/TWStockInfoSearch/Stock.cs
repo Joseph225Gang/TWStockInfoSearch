@@ -13,5 +13,7 @@ namespace TWStockInfoSearch
         public string OpeningPrice { get; set; }
         public string HighestPrice { get; set; }
         public string LowestPrice { get; set; }
+        public string AnnualYield { get; set; }
+        public string AnnualEPS { get; set; }
     }
 }

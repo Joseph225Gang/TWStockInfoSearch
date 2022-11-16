@@ -29,5 +29,14 @@ var stock = new Stock()
     LowestPrice = stockInfoP1[7].InnerHtml
 };
 
-Console.WriteLine(stock.ClosingPrice);
+//年均殖利率和EPS
+var stockInfoP2 = lis[6].QuerySelectorAll("tr")[0].QuerySelectorAll("td")[52].QuerySelectorAll("table")[12].QuerySelectorAll("tr")[4].QuerySelectorAll("td");
+//Console.WriteLine(stockInfoP2.InnerHtml);
+
+stock.AnnualYield = stockInfoP2[16].InnerHtml;
+stock.AnnualEPS = stockInfoP2[20].InnerHtml.Replace("<nobr>","").Replace("</nobr>", "");
+
+
+Console.WriteLine($"殖利率{stock.AnnualYield}");
+Console.WriteLine($"EPS{stock.AnnualEPS}");
 
