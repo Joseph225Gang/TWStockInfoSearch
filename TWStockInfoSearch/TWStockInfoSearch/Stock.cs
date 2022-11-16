@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TWStockGet
+namespace TWStockInfoSearch
 {
     public class Stock
     {

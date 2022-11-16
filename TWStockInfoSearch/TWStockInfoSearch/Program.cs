@@ -1,15 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-
 using AngleSharp;
 using AngleSharp.Dom;
-using TWStockGet;
+using TWStockInfoSearch;
 
 Console.Write("請輸入要查詢的股票號碼:");
 int stockIndex = int.Parse(Console.ReadLine());
 Console.WriteLine($"股票號碼為{stockIndex}");
 
-var config = AngleSharp.Configuration.Default.WithDefaultLoader();
+var config = Configuration.Default.WithDefaultLoader();
 var browser = BrowsingContext.New(config);
 
 var url = new Url($"https://goodinfo.tw/tw/StockDividendPolicy.asp?STOCK_ID={stockIndex}");
@@ -31,5 +30,4 @@ var stock = new Stock()
 };
 
 Console.WriteLine(stock.ClosingPrice);
-
 

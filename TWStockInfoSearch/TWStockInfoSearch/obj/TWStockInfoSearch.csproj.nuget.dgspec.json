@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio 2022\\TWStockGet\\TWStockGet\\TWStockGet.csproj": {}
+    "D:\\Github\\TWStockInfoSearch\\TWStockInfoSearch\\TWStockInfoSearch\\TWStockInfoSearch.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio 2022\\TWStockGet\\TWStockGet\\TWStockGet.csproj": {
+    "D:\\Github\\TWStockInfoSearch\\TWStockInfoSearch\\TWStockInfoSearch\\TWStockInfoSearch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio 2022\\TWStockGet\\TWStockGet\\TWStockGet.csproj",
-        "projectName": "TWStockGet",
-        "projectPath": "D:\\Visual Studio 2022\\TWStockGet\\TWStockGet\\TWStockGet.csproj",
+        "projectUniqueName": "D:\\Github\\TWStockInfoSearch\\TWStockInfoSearch\\TWStockInfoSearch\\TWStockInfoSearch.csproj",
+        "projectName": "TWStockInfoSearch",
+        "projectPath": "D:\\Github\\TWStockInfoSearch\\TWStockInfoSearch\\TWStockInfoSearch\\TWStockInfoSearch.csproj",
         "packagesPath": "C:\\Users\\Kwei-GangLai\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio 2022\\TWStockGet\\TWStockGet\\obj\\",
+        "outputPath": "D:\\Github\\TWStockInfoSearch\\TWStockInfoSearch\\TWStockInfoSearch\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

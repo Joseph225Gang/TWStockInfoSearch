@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("TWStockGet")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("TWStockInfoSearch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("TWStockGet")]
-[assembly: System.Reflection.AssemblyTitleAttribute("TWStockGet")]
+[assembly: System.Reflection.AssemblyProductAttribute("TWStockInfoSearch")]
+[assembly: System.Reflection.AssemblyTitleAttribute("TWStockInfoSearch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 類別產生。
