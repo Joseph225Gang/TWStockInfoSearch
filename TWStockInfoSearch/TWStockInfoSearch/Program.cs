@@ -17,6 +17,17 @@ var document = await browser.OpenAsync(url);
 
 var lis = document.QuerySelectorAll("table");
 
+var companyNameContent = lis[6].QuerySelectorAll("tr")[0].QuerySelectorAll("td")[52].QuerySelectorAll("table")[0].QuerySelectorAll("tr")[0].QuerySelectorAll("td")[0].QuerySelectorAll("a")[0];
+string companyName = companyNameContent.InnerHtml[(companyNameContent.InnerHtml.IndexOf(";") + 1)..companyNameContent.InnerHtml.Length];
+/*foreach (var item in aa)
+{
+    if(item.InnerHtml.Contains("中信金"))
+    {
+        Console.WriteLine(count);
+        break;
+    }
+    count++;
+}*/
 
 var stockInfoP1 = lis[11].QuerySelectorAll("tr")[4].QuerySelectorAll("td");
 
@@ -26,17 +37,17 @@ var stock = new Stock()
     YesterdayPrice = stockInfoP1[1].InnerHtml,
     OpeningPrice = stockInfoP1[5].InnerHtml,
     HighestPrice = stockInfoP1[6].InnerHtml,
-    LowestPrice = stockInfoP1[7].InnerHtml
+    LowestPrice = stockInfoP1[7].InnerHtml,
+    CompanyName = companyName
 };
 
 //年均殖利率和EPS
 var stockInfoP2 = lis[6].QuerySelectorAll("tr")[0].QuerySelectorAll("td")[52].QuerySelectorAll("table")[12].QuerySelectorAll("tr")[4].QuerySelectorAll("td");
 //Console.WriteLine(stockInfoP2.InnerHtml);
 
-stock.AnnualYield = stockInfoP2[16].InnerHtml;
 stock.AnnualEPS = stockInfoP2[20].InnerHtml.Replace("<nobr>","").Replace("</nobr>", "");
 
 
-Console.WriteLine($"殖利率{stock.AnnualYield}");
-Console.WriteLine($"EPS{stock.AnnualEPS}");
+Console.WriteLine($"EPS : {stock.AnnualEPS}");
+Console.WriteLine($"公司名稱 : {stock.CompanyName}");
 

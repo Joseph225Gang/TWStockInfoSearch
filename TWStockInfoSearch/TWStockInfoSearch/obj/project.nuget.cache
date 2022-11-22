@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "JYazw8F1t9vhvcCHncW1sfokVfvGZYTBlEOVIppwItHMOU0L50vhjrm0Y7DWNz8t35G/SovDRmm6S05LgH5ObA==",
+  "dgSpecHash": "FrTPjUVGO6B3ikETSeK6yCDJy7aMEiuxPpVcGeLZcbncaKRKIh1VSB90T8nmFGPs+y8kAj2t7MWZoGUQ4ss25A==",
   "success": true,
-  "projectFilePath": "D:\\Github\\TWStockInfoSearch\\TWStockInfoSearch\\TWStockInfoSearch\\TWStockInfoSearch.csproj",
+  "projectFilePath": "C:\\Github\\TWStockInfoSearch\\TWStockInfoSearch\\TWStockInfoSearch.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Kwei-GangLai\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
-    "C:\\Users\\Kwei-GangLai\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\Kwei-GangLai\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\Kwei-GangLai\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512"
+    "C:\\Users\\lai22\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
+    "C:\\Users\\lai22\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\lai22\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\lai22\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
