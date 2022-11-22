@@ -18,7 +18,6 @@ var document = await browser.OpenAsync(url);
 var lis = document.QuerySelectorAll("table");
 
 var companyNameContent = lis[6].QuerySelectorAll("tr")[0].QuerySelectorAll("td")[52].QuerySelectorAll("table")[0].QuerySelectorAll("tr")[0].QuerySelectorAll("td")[0].QuerySelectorAll("a")[0];
-string companyName = companyNameContent.InnerHtml[(companyNameContent.InnerHtml.IndexOf(";") + 1)..companyNameContent.InnerHtml.Length];
 /*foreach (var item in aa)
 {
     if(item.InnerHtml.Contains("中信金"))
@@ -38,7 +37,7 @@ var stock = new Stock()
     OpeningPrice = stockInfoP1[5].InnerHtml,
     HighestPrice = stockInfoP1[6].InnerHtml,
     LowestPrice = stockInfoP1[7].InnerHtml,
-    CompanyName = companyName
+    CompanyName = companyNameContent.InnerHtml[(companyNameContent.InnerHtml.IndexOf(";") + 1)..companyNameContent.InnerHtml.Length]
 };
 
 //年均殖利率和EPS
