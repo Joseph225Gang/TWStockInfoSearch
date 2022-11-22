@@ -18,15 +18,6 @@ var document = await browser.OpenAsync(url);
 var lis = document.QuerySelectorAll("table");
 
 var companyNameContent = lis[6].QuerySelectorAll("tr")[0].QuerySelectorAll("td")[52].QuerySelectorAll("table")[0].QuerySelectorAll("tr")[0].QuerySelectorAll("td")[0].QuerySelectorAll("a")[0];
-/*foreach (var item in aa)
-{
-    if(item.InnerHtml.Contains("中信金"))
-    {
-        Console.WriteLine(count);
-        break;
-    }
-    count++;
-}*/
 
 var stockInfoP1 = lis[11].QuerySelectorAll("tr")[4].QuerySelectorAll("td");
 
