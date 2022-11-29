@@ -8,12 +8,16 @@ namespace TWStockInfoSearch
 {
     public class Stock
     {
+        //成交價
         public string ClosingPrice { get; set; }
-        public string YesterdayPrice { get; set; }
+        //開盤
         public string OpeningPrice { get; set; }
+        //最高
         public string HighestPrice { get; set; }
+        //最低
         public string LowestPrice { get; set; }
-        public string AnnualEPS { get; set; }
+        //EPS
+        public string CompanyEPS { get; set; }
         //公司名稱
         public string CompanyName { get; set; }
     }

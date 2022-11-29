@@ -28,7 +28,6 @@ try
     var stock = new Stock()
     {
         ClosingPrice = stockInfoP1[0].InnerHtml,
-        YesterdayPrice = stockInfoP1[1].InnerHtml,
         OpeningPrice = stockInfoP1[5].InnerHtml,
         HighestPrice = stockInfoP1[6].InnerHtml,
         LowestPrice = stockInfoP1[7].InnerHtml,
@@ -37,7 +36,7 @@ try
 
     //EPS Index
     var stockInfoP2 = lis[6].QuerySelectorAll("tr")[0].QuerySelectorAll("td")[52].QuerySelectorAll("table")[12].QuerySelectorAll("tr")[4].QuerySelectorAll("td");
-    stock.AnnualEPS = stockInfoP2[20].InnerHtml.Replace("<nobr>", "").Replace("</nobr>", "");
+    stock.CompanyEPS = stockInfoP2[20].InnerHtml.Replace("<nobr>", "").Replace("</nobr>", "");
 
     Console.WriteLine($"今天日期{DateTime.Now.Year}/{DateTime.Now.Month}/{DateTime.Now.Day}");
     Console.WriteLine($"公司名稱 : {stock.CompanyName}");
@@ -45,7 +44,7 @@ try
     Console.WriteLine($"開盤 : {stock.OpeningPrice}");
     Console.WriteLine($"最低 : {stock.LowestPrice}");
     Console.WriteLine($"最高 : {stock.HighestPrice}");
-    Console.WriteLine($"EPS : {stock.AnnualEPS}");
+    Console.WriteLine($"EPS : {stock.CompanyEPS}");
 }
 catch (Exception ex)
 {
